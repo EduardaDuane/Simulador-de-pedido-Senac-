@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulador de Pedidos</title>
+</head>
+<body>
+      <div class="hero-content">
+            <img src="img/senac-logo.png" alt="SENAC" class="main-burger">
+        </div>
+    <div class="container">
+           <div class="search-container">
+            <div class="search-box">
+                <div class="input-group">
+        <h1>Simulador de Pedidos do TDS261T</h1>
+
+        <p class ="subtítulo">
+            Bem vindos a nossa lancheria! Aqui você encontra tudo barato!✌️
+        </p>
+        
+        <div class = "cards">
+
+ <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="hamburguer">
+                <!--Imagem do produto-->
+                <!--Nome do produto-->
+                <h2> hambúrguer </h2>
+                <img src="img/HAMBURGUER.png" alt="hamburguer">
+
+                <!--Descrição-->
+                <p> Pão, Carne, Queijo, Tomate, Alface e Maionese </p>
+                <!--Preço-->
+                <span>  R$ 62,50 </span>
+                </input>
+        </label>
+                 <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="batata">
+                <!--Imagem do produto-->
+                <h2> Batata Frita </h2>
+                <img src="img/BATATA.png" alt="batata">
+                <!--Nome do produto-->
+                <!--Descrição-->
+                <p> Batata frita com queijo </p>
+                <!--Preço-->
+                <span>  R$ 22,50 </span>
+                </input>
+        </label>
+
+         <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="nuggets">
+                <!--Imagem do produto-->
+                <!--Nome do produto-->
+                <h2> Nuggets </h2>
+                <img src="img/NUGGTS.png" alt="nuggets">
+
+                <!--Descrição-->
+                <p> Frango frito industrializado </p>
+                <!--Preço-->
+                <span>  R$ 15,50 </span>
+                </input>
+        </label>
+
+         <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="suco">
+                <!--Imagem do produto-->
+                <!--Nome do produto-->
+                <h2> suco </h2>
+                 <img src="img/SUCO.png" alt="suco">
+                <!--Descrição-->
+                <p> Suco de laranja natural</p>
+                <!--Preço-->
+                <span>  R$ 12,50 </span>
+                </input>
+        </label>
+        <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="sorvete">
+                <!--Imagem do produto-->
+                <!--Nome do produto-->
+                <h2> Sorvete </h2>
+                 <img src="img/SORVETE.png" alt="sorvete">
+                <!--Descrição-->
+                <p> Sorvete extra gelado, monte o seu sorvete pela sua preferencia</p>
+                <!--Preço-->
+                <span>  R$ 35,50 </span>
+                </input>
+        </label>
+        <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="pizza">
+                <!--Imagem do produto-->
+                <!--Nome do produto-->
+                <h2> Pizza </h2>
+                 <img src="img/PIZZA.png" alt="pizza">
+                <!--Descrição-->
+                <p> Pizza grande 6 queijos</p>
+                <!--Preço-->
+                <span>  R$ 102,50 </span>
+                </input>
+        </label>
+
+        </div>
+
+            <button onclick="calcular()"> Calcular Pedido </button>
+
+    <div id="resultado" class="resultado"></div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
